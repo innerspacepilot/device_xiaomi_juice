@@ -4,9 +4,9 @@
     "target_path": "vendor/xiaomi/juice"
   },
   {
-    "repository" : "aseelps/kernel_poco_juice",
+    "repository" : "aseelps/android_kernel_xiaomi_juice",
     "target_path": "kernel/xiaomi/juice",
-    "branch":"main",
+    "branch":"11.0",
     "remote":"github"
   }
 ]
