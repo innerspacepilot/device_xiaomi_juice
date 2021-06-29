@@ -17,8 +17,11 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Height of area above QQS where battery/time go -->
-    <dimen name="quick_qs_offset_height">72dp</dimen>
-    <!-- Total height of QQS in landscape, this is effectively status_bar_height_landscape + 128 -->
-    <dimen name="quick_qs_total_height">200dp</dimen>
+    <!-- The padding on the side of the navigation bar. Must be greater than or equal to
+         navigation_extra_key_width -->
+    <dimen name="navigation_side_padding">85.0dip</dimen>
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">7.0dp</dimen>
+    <!-- rounded corner content padding -->
+    <dimen name="rounded_corner_content_padding">18.179993dip</dimen>
 </resources>
