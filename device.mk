@@ -24,9 +24,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
     vendor/qcom/opensource/commonsys/system/bt/conf
 
-# Dot Overlays
-#DEVICE_PACKAGE_OVERLAYS += \
-#    $(LOCAL_PATH)/overlay-dot
+# Lineage Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 BOARD_BUILD_PRODUCT_IMAGE := true
