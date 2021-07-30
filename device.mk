@@ -35,6 +35,14 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Add default implementation of fastboot HAL.
 PRODUCT_PACKAGES += android.hardware.fastboot@1.0-impl-mock
 
+# NFC
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    NfcNci \
+    Tag \
+    SecureElement \
+    android.hardware.nfc@1.2-service.st
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
